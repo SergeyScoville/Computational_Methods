@@ -25,7 +25,7 @@ To build the project, follow these steps:
 
 3. **Compile the Project:**
 
-   After funning CMake, compile the project using `make`:
+   After running CMake, compile the project using `make`:
 
    ```bash
    ./Homework`
