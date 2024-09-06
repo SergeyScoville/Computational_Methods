@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a C++ program that processes data from a specified file, calculates the average and standard deviation of `y` values, and displays these statistics. The project is built using CMake.
+This project is a C++ program that processes data from a specified file, calculates the average and standard deviation of `y` values, and displays these statistics. It also has the functionality to plot data, specifically the data stored in the `asst1-1.txt` file, or any file structured the same. The project is built using CMake.
 
 ## Building the Project
 
@@ -62,4 +62,6 @@ When prompted:
 Please enter the name of the data file you want to use: ../data/asst1-1.dat
 ```
 The program will then read the data from the specified file, perform the calculations, and display the results.
+
+The PlottingHomework1 executable is run in the same method and will also prompt you for an input file which you can do in the same method as before, only with files with a `.txt` extension though.
 
