@@ -17,6 +17,9 @@ add_executable(Homework1
     ${CMAKE_SOURCE_DIR}/src/main.cpp
     ${CMAKE_SOURCE_DIR}/src/tools.cpp
 )
+add_executable(PlottingHomework1
+    ${CMAKE_SOURCE_DIR}/src/plotting.cpp
+)
 
 # If you need to access the data directory from your code
 add_definitions(-DDATA_DIR="${CMAKE_SOURCE_DIR}/data/")
