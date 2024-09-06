@@ -16,7 +16,7 @@ double standDev(const std::vector<dataPoint>& values) {
     int numberValues = values.size();
 
     for (int entry = 0; entry < numberValues; entry++) {
-    sigmaSquared += pow((values[entry].y - yAvg), 2);
+        sigmaSquared += pow((values[entry].y - yAvg), 2);
     }
     return std::sqrt(sigmaSquared / (numberValues));
 }

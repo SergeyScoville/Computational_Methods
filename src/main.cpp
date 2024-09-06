@@ -15,7 +15,7 @@ int main() {
 
     std::ifstream infile(fileName);
     if (!infile) {
-        std::cerr << "Problem opening file, please check you have the right file " << fileName;
+        std::cerr << "Problem opening file, please check you have the right file " << fileName << std::endl;
         return 1;
     }
 
