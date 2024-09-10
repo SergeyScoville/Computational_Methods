@@ -28,7 +28,7 @@ To build the project, follow these steps:
    After running CMake, compile the project using `make`:
 
    ```bash
-   ./Homework`
+   make
 
 ## Running the Program
 
