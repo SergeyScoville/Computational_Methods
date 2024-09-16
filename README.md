@@ -8,7 +8,14 @@ This project is a C++ program that processes data from a specified file, calcula
 
 To build the project, follow these steps:
 
-1. **Navigate to the `build` Directory:**
+1. **Get the project:**
+
+   You first need to get the code and project. Naviage to a directory you want to put the project and then run:
+
+   ```bash
+   git clone https://github.com/SergeyScoville/Computational_Methods_Homework_2.git
+
+2. **Navigate to the `build` Directory:**
 
    First, ensure that you are in the root directory of the project. Then, create or navigate to the `build` directory:
 
@@ -16,14 +23,14 @@ To build the project, follow these steps:
    mkdir -p build
    cd build
 
-2. **Run CMake:**
+3. **Run CMake:**
 
    In the `build` directory, generate the build system files using CMake:
 
    ```bash
    cmake ..
 
-3. **Compile the Project:**
+4. **Compile the Project:**
 
    After running CMake, compile the project using `make`:
 
