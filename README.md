@@ -13,7 +13,7 @@ To build the project, follow these steps:
    You first need to get the code and project. Naviage to a directory you want to put the project and then run:
 
    ```bash
-   git clone https://github.com/SergeyScoville/Computational_Methods_Homework_2.git
+   git clone https://github.com/SergeyScoville/Computational_Methods_Homework1.git
 
 2. **Navigate to the `build` Directory:**
 
